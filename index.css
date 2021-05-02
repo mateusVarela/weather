@@ -1,0 +1,74 @@
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #3b485c, #677b9c, #ffc996, #ff8474);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.organize-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#input-search {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.2rem;
+    width: 300px;
+    padding: 5px;
+    color: #8b8b8b;
+}
+
+.organized {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.organize-icon {
+    color: white;
+}
+
+.region {
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sensation {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 4rem;
+    color: white;
+}
+
+.condition {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
